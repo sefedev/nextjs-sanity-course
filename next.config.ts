@@ -7,11 +7,11 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: '*' },
     ]
   },
-  experimental: {
-    ppr: 'incremental'
-  }, devIndicators: {
-    position: 'bottom-right',
-  }
+  // experimental: {
+  //   ppr: 'incremental'
+  // }, devIndicators: {
+  //   position: 'bottom-right',
+  // }
 };
 
 export default nextConfig;
